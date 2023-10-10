@@ -6,7 +6,7 @@
 # Last Modified : 24/01/2023
 # Modified By   : Start81 (DESMAREST JULIEN) 
 # Description   : Nagios check that uses HYCUs REST API to get target storage usage and status
-# Depends On    : Net::SNMP; Monitoring::Plugin; Data::Dumper ;MIME::Base64; JSON; REST::Client; LWP::UserAgent
+# Depends On    : REST::Client Data::Dumper Monitoring::Plugin MIME::Base64 JSON LWP::UserAgent Readonly
 # 
 # Changelog: 
 #    Legend: 
